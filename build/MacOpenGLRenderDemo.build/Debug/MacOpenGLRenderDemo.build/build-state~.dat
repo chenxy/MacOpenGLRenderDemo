@@ -1,0 +1,559 @@
+TMacOpenGLRenderDemo
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Info.plist MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist
+cProcessPCH /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch.pth MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/main.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNAppDelegate.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNViewController.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNGLView.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNGLView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNFFMpegFrameReder.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/KNFrameReader/KNFFMpegFrameReder.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/MacOS/MacOpenGLRenderDemo normal x86_64
+cCpResource mov.mp4 build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/mov.mp4
+cCopyStringsFile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/InfoPlist.strings MacOpenGLRenderDemo/en.lproj/InfoPlist.strings
+cCpResource MacOpenGLRenderDemo/en.lproj/Credits.rtf build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib
+cCpResource yumi.jpeg build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/yumi.jpeg
+cCpResource FFMpeg_Angel/lib/pkgconfig/libavcodec.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavcodec.pc
+cCpResource FFMpeg_Angel/lib/pkgconfig/libavdevice.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavdevice.pc
+cCpResource FFMpeg_Angel/lib/pkgconfig/libavfilter.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavfilter.pc
+cCpResource FFMpeg_Angel/lib/pkgconfig/libavformat.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavformat.pc
+cCpResource FFMpeg_Angel/lib/pkgconfig/libavutil.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavutil.pc
+cCpResource FFMpeg_Angel/lib/pkgconfig/libpostproc.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libpostproc.pc
+cCpResource FFMpeg_Angel/lib/pkgconfig/libswresample.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswresample.pc
+cCpResource FFMpeg_Angel/lib/pkgconfig/libswscale.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswscale.pc
+cTouch /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005097584300000000000000AA
+t1352095811
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000506E342E00000000000025C8
+t1349399598
+s9672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000506E342E00000000000001E5
+t1349399598
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c00000000506E342F0000000000014030
+t1349399599
+s81968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000506E3430000000000000ADFC
+t1349399600
+s44540
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000506E3431000000000004DE20
+t1349399601
+s319008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libbz2.1.0.5.dylib
+c00000000506E343500000000000043B8
+t1349399605
+s17336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libz.1.1.3.dylib
+c00000000506E34350000000000004714
+t1349399605
+s18196
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libavcodec.a
+c0000000050EBA30B000000000300D5E8
+t1357619979
+s50386408
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libavdevice.a
+c0000000050EBA2FB0000000000015018
+t1357619963
+s86040
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libavfilter.a
+c0000000050EBA2FC0000000000430308
+t1357619964
+s4391688
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libavformat.a
+c0000000050EBA303000000000145FE80
+t1357619971
+s21364352
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libavutil.a
+c0000000050EBA30C00000000000B5FB8
+t1357619980
+s745400
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libpostproc.a
+c0000000050EBA30B0000000000047DE8
+t1357619979
+s294376
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libswresample.a
+c0000000050EBA30B00000000000492F0
+t1357619979
+s299760
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libswscale.a
+c0000000050EBA30C000000000016B8F0
+t1357619980
+s1489136
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavcodec.pc
+c0000000050EBA30C000000000000012F
+t1357619980
+s303
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavdevice.pc
+c0000000050EBA30C0000000000000154
+t1357619980
+s340
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavfilter.pc
+c0000000050EBA30C00000000000001B3
+t1357619980
+s435
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavformat.pc
+c0000000050EBA30C000000000000013D
+t1357619980
+s317
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavutil.pc
+c0000000050EBA30C0000000000000110
+t1357619980
+s272
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libpostproc.pc
+c0000000050EBA30C000000000000012C
+t1357619980
+s300
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libswresample.pc
+c0000000050EBA30C0000000000000135
+t1357619980
+s309
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libswscale.pc
+c0000000050EBA30C000000000000012D
+t1357619980
+s301
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/KNFrameReader/KNFFMpegFrameReder.m
+c0000000050EBA4FF0000000000000C2E
+t1357620479
+s3118
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNAppDelegate.m
+c0000000050EA6209000000000000017A
+t1357537801
+s378
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNGLView.m
+c0000000050EBC1F70000000000000960
+t1357627895
+s2400
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNViewController.m
+c0000000050EBBC280000000000000515
+t1357626408
+s1301
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch
+c0000000050EA620900000000000000A9
+t1357537801
+s169
+i<Cocoa/Cocoa.h>
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/Credits.rtf
+c0000000050EA620900000000000001B4
+t1357537801
+s436
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/InfoPlist.strings
+c0000000050EA6209000000000000002D
+t1357537801
+s45
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib
+c0000000050EBAC5F0000000000024F8F
+t1357622367
+s151439
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/main.m
+c0000000050EA620900000000000000FD
+t1357537801
+s253
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/MacOS/MacOpenGLRenderDemo
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavcodec.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavdevice.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavfilter.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavformat.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavutil.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libpostproc.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswresample.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswscale.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/mov.mp4
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/yumi.jpeg
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNAppDelegate.o
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNFFMpegFrameReder.o
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNGLView.o
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNViewController.o
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/MacOpenGLRenderDemo.LinkFileList
+c0000000050EBC1F800000000000002CA
+t1357627896
+s714
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/mov.mp4
+c000000004FD73D24000000000103F009
+t1339505956
+s17035273
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/yumi.jpeg
+c0000000050370AFB0000000000012C3F
+t1345784571
+s76863
+
+N/var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch.pth
+t2
+s0
+
+NMacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist
+c0000000050EA6209000000000000044B
+t1357537801
+s1099
+
+CBuild AST from /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/KNFrameReader/KNFFMpegFrameReder.m
+r0
+
+CBuild AST from /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNAppDelegate.m
+r0
+
+CBuild AST from /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNGLView.m
+r0
+
+CBuild AST from /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNViewController.m
+r0
+
+CBuild AST from /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies575d0f78f99bb641^0f282378f99bb641^---0#1#0#--18"Check dependencies36"EF0C313E-2544-459D-89CF-D50E5A03761B-
+
+CCompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNAppDelegate.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379320700.026942
+e379320700.183921
+r1
+xCompileC
+xbuild/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNAppDelegate.o
+x/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-ObjC'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNAppDelegate.m5533077cf99bb641^07b7317cf99bb641^-60"clang: warning: argument unused during compilation: '-ObjC'-0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNAppDelegate.m0000000000000000^3191"CompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNAppDelegate.o MacOpenGLRenderDemo/KNAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-generated-files.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-own-target-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-project-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/include -IFFMpeg_Angel/include -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources/x86_64 -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources -F/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug -ObjC -include /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch -MMD -MT dependencies -MF /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNAppDelegate.d --serialize-diagnostics /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNAppDelegate.dia -c /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNAppDelegate.m -o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNAppDelegate.o36"403AA9AB-24A5-4492-B2F2-DD3470E63387-
+
+CCompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNFFMpegFrameReder.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/KNFrameReader/KNFFMpegFrameReder.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379320700.334980
+e379320700.532249
+r1
+xCompileC
+xbuild/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNFFMpegFrameReder.o
+x/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/KNFrameReader/KNFFMpegFrameReder.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-ObjC'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/KNFrameReader/KNFFMpegFrameReder.m3fe4557cf99bb641^3a40887cf99bb641^-60"clang: warning: argument unused during compilation: '-ObjC'-0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/KNFrameReader/KNFFMpegFrameReder.m0000000000000000^3209"CompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNFFMpegFrameReder.o KNFrameReader/KNFFMpegFrameReder.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-generated-files.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-own-target-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-project-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/include -IFFMpeg_Angel/include -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources/x86_64 -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources -F/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug -ObjC -include /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch -MMD -MT dependencies -MF /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNFFMpegFrameReder.d --serialize-diagnostics /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNFFMpegFrameReder.dia -c /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/KNFrameReader/KNFFMpegFrameReder.m -o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNFFMpegFrameReder.o36"A20DEF84-DC78-4B91-9292-9C12746EF404-
+
+CCompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNGLView.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNGLView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379320700.222112
+e379320700.333614
+r1
+xCompileC
+xbuild/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNGLView.o
+x/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNGLView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-ObjC'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNGLView.m33533a7cf99bb641^0c74557cf99bb641^-60"clang: warning: argument unused during compilation: '-ObjC'-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNGLView.m0000000000000000^3161"CompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNGLView.o MacOpenGLRenderDemo/KNGLView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-generated-files.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-own-target-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-project-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/include -IFFMpeg_Angel/include -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources/x86_64 -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources -F/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug -ObjC -include /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch -MMD -MT dependencies -MF /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNGLView.d --serialize-diagnostics /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNGLView.dia -c /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNGLView.m -o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNGLView.o36"184343C9-7A86-40FA-BC08-436A486AED7A-
+
+CCompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNViewController.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379320700.150045
+e379320700.355012
+r1
+xCompileC
+xbuild/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNViewController.o
+x/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-ObjC'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNViewController.m658d267cf99bb641^16f85a7cf99bb641^-60"clang: warning: argument unused during compilation: '-ObjC'-0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNViewController.m0000000000000000^3209"CompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNViewController.o MacOpenGLRenderDemo/KNViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-generated-files.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-own-target-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-project-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/include -IFFMpeg_Angel/include -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources/x86_64 -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources -F/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug -ObjC -include /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch -MMD -MT dependencies -MF /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNViewController.d --serialize-diagnostics /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNViewController.dia -c /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNViewController.m -o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/KNViewController.o36"2F592D4B-1517-4F71-B2FB-5A978D078FE2-
+
+CCompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/main.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379320700.026899
+e379320700.148731
+r1
+xCompileC
+xbuild/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/main.o
+x/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-ObjC'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/main.m902d077cf99bb641^1e16267cf99bb641^-60"clang: warning: argument unused during compilation: '-ObjC'-0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/main.m0000000000000000^3137"CompileC build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/main.o MacOpenGLRenderDemo/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-generated-files.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-own-target-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-project-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/include -IFFMpeg_Angel/include -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources/x86_64 -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources -F/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug -ObjC -include /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch -MMD -MT dependencies -MF /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/main.dia -c /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/main.m -o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/main.o36"56E624F1-8148-496D-9808-B908C6894016-
+
+CCompileXIB /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib
+s379320701.622764
+e379320707.334299
+r1
+xCompileXIB
+x/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib
+o2013-01-08 15:51:47.037 ibtoold[98152:707] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+o2013-01-08 15:51:47.038 ibtoold[98152:707] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+o/* com.apple.ibtool.document.warnings */
+o/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
+o/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib:545: warning: NSOpenGLViews in One Shot memory enabled window [9]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compiling /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib52819f7df99bb641^25955583f99bb641^-362"2013-01-08 15:51:47.037 ibtoold[98152:707] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***2013-01-08 15:51:47.038 ibtoold[98152:707] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***/* com.apple.ibtool.document.warnings */2(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar379320707#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@99"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib0000000000000000^370#18446744073709551615#370#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--2@47"NSOpenGLViews in One Shot memory enabled window-379320707#18446744073709551615#0#-1#-3@99"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib0000000000000000^544#18446744073709551615#544#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@99"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib0000000000000000^638"CompileXIB MacOpenGLRenderDemo/en.lproj/MainMenu.xib    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/MainMenu.nib /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"EFA3B20F-EBE6-41BC-8095-902E808E569E-
+
+CCopyStringsFile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/InfoPlist.strings MacOpenGLRenderDemo/en.lproj/InfoPlist.strings
+s379320701.287498
+e379320701.530790
+r1
+xCopyStringsFile
+x/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/InfoPlist.strings
+xMacOpenGLRenderDemo/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy MacOpenGLRenderDemo/en.lproj/InfoPlist.stringseba9497df99bb641^6de3877df99bb641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/InfoPlist.strings0000000000000000^440"CopyStringsFile build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/InfoPlist.strings MacOpenGLRenderDemo/en.lproj/InfoPlist.strings    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj -- MacOpenGLRenderDemo/en.lproj/InfoPlist.strings36"A92DCD1D-BB42-4A07-AD06-E79752926CC4-
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libavcodec.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavcodec.pc
+s379320702.456034
+e379320702.631880
+r1
+xCpResource
+xFFMpeg_Angel/lib/pkgconfig/libavcodec.pc
+xbuild/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavcodec.pc
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavcodec.pca3ce747ef99bb641^0dc2a47ef99bb641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavcodec.pc000000000080d041^462"CpResource FFMpeg_Angel/lib/pkgconfig/libavcodec.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavcodec.pc    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavcodec.pc /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources36"8AA06320-696C-40CD-BA27-17F0648BEDE5-
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libavdevice.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavdevice.pc
+s379320702.633261
+e379320702.826693
+r1
+xCpResource
+xFFMpeg_Angel/lib/pkgconfig/libavdevice.pc
+xbuild/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavdevice.pc
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavdevice.pcb136a27ef99bb641^e4d7d37ef99bb641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavdevice.pc000000000080d041^465"CpResource FFMpeg_Angel/lib/pkgconfig/libavdevice.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavdevice.pc    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavdevice.pc /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources36"74A45EFA-6017-45A4-B300-31EBF391CCBA-
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libavfilter.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavfilter.pc
+s379320702.827892
+e379320702.831545
+r1
+xCpResource
+xFFMpeg_Angel/lib/pkgconfig/libavfilter.pc
+xbuild/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavfilter.pc
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavfilter.pcde03d47ef99bb641^76e0d87ef99bb641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavfilter.pc000000000080d041^465"CpResource FFMpeg_Angel/lib/pkgconfig/libavfilter.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavfilter.pc    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavfilter.pc /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources36"FB8A6DC4-48DF-4EF2-9368-5C6CDEF20F81-
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libavformat.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavformat.pc
+s379320702.833123
+e379320702.836794
+r1
+xCpResource
+xFFMpeg_Angel/lib/pkgconfig/libavformat.pc
+xbuild/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavformat.pc
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavformat.pc255bd57ef99bb641^71e5d87ef99bb641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavformat.pc000000000080d041^465"CpResource FFMpeg_Angel/lib/pkgconfig/libavformat.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavformat.pc    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavformat.pc /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources36"5A664F52-AFE5-4153-A14F-515C7D8E0A33-
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libavutil.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavutil.pc
+s379320702.838075
+e379320702.841711
+r1
+xCpResource
+xFFMpeg_Angel/lib/pkgconfig/libavutil.pc
+xbuild/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavutil.pc
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavutil.pc6b9fd67ef99bb641^21e8d87ef99bb641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavutil.pc000000000080d041^459"CpResource FFMpeg_Angel/lib/pkgconfig/libavutil.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libavutil.pc    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavutil.pc /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources36"77D6DD1F-3910-49ED-A188-7982A4C9B4EA-
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libpostproc.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libpostproc.pc
+s379320702.843162
+e379320702.846659
+r1
+xCpResource
+xFFMpeg_Angel/lib/pkgconfig/libpostproc.pc
+xbuild/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libpostproc.pc
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libpostproc.pc9eebd77ef99bb641^4bead87ef99bb641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libpostproc.pc000000000080d041^465"CpResource FFMpeg_Angel/lib/pkgconfig/libpostproc.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libpostproc.pc    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libpostproc.pc /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources36"1F8D3BB7-8192-4E07-9BD5-70CD03532651-
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libswresample.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswresample.pc
+s379320702.847914
+e379320702.852826
+r1
+xCpResource
+xFFMpeg_Angel/lib/pkgconfig/libswresample.pc
+xbuild/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswresample.pc
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswresample.pc0c23d97ef99bb641^36b1dc7ef99bb641^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswresample.pc000000000080d041^471"CpResource FFMpeg_Angel/lib/pkgconfig/libswresample.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswresample.pc    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libswresample.pc /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources36"B44ADD48-31F5-4E55-9A32-CCA6B30BAD59-
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libswscale.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswscale.pc
+s379320702.854123
+e379320702.857841
+r1
+xCpResource
+xFFMpeg_Angel/lib/pkgconfig/libswscale.pc
+xbuild/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswscale.pc
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswscale.pcc3b9da7ef99bb641^ddb5dc7ef99bb641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswscale.pc000000000080d041^462"CpResource FFMpeg_Angel/lib/pkgconfig/libswscale.pc build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/libswscale.pc    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libswscale.pc /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources36"B5BB7FBB-A8D4-4699-A235-5D649116E147-
+
+CCpResource MacOpenGLRenderDemo/en.lproj/Credits.rtf build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/Credits.rtf
+s379320701.532465
+e379320701.621446
+r1
+xCpResource
+xMacOpenGLRenderDemo/en.lproj/Credits.rtf
+xbuild/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/Credits.rtfe965887df99bb641^ac369f7df99bb641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^478"CpResource MacOpenGLRenderDemo/en.lproj/Credits.rtf build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj/Credits.rtf    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/Credits.rtf /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/en.lproj36"E6DD201F-2319-4D9F-BA22-F7464F714E0E-
+
+CCpResource mov.mp4 build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/mov.mp4
+s379320701.286046
+e379320702.450064
+r1
+xCpResource
+xmov.mp4
+xbuild/Debug/MacOpenGLRenderDemo.app/Contents/Resources/mov.mp4
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/mov.mp4514d497df99bb641^4b39737ef99bb641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/mov.mp4000000000080d041^390"CpResource mov.mp4 build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/mov.mp4    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/mov.mp4 /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources36"54E963E2-EF28-4F4A-A18F-C0FDCFB82271-
+
+CCpResource yumi.jpeg build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/yumi.jpeg
+s379320702.451409
+e379320702.454718
+r1
+xCpResource
+xyumi.jpeg
+xbuild/Debug/MacOpenGLRenderDemo.app/Contents/Resources/yumi.jpeg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/yumi.jpegdba3737ef99bb641^1a6a747ef99bb641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/yumi.jpeg000000000080d041^396"CpResource yumi.jpeg build/Debug/MacOpenGLRenderDemo.app/Contents/Resources/yumi.jpeg    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/yumi.jpeg /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Resources36"1D6588C5-90C7-4CA5-9D63-AD5BCC678F8F-
+
+CLd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/MacOS/MacOpenGLRenderDemo normal x86_64
+s379320700.538857
+e379320701.277981
+r1
+xLd
+x/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/MacOS/MacOpenGLRenderDemo
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/MacOS/MacOpenGLRenderDemo9e0c8a7cf99bb641^6633477df99bb641^---0#0#0#--1084"Ld build/Debug/MacOpenGLRenderDemo.app/Contents/MacOS/MacOpenGLRenderDemo normal x86_64    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug -L/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib -F/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug -filelist /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/Objects-normal/x86_64/MacOpenGLRenderDemo.LinkFileList -mmacosx-version-min=10.8 -fobjc-link-runtime -lz.1.1.3 -lbz2.1.0.5 -framework GLUT -framework QuartzCore -framework OpenGL -framework Cocoa -lavcodec -lavdevice -lavfilter -lavformat -lavutil -lpostproc -lswresample -lswscale -o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/MacOS/MacOpenGLRenderDemo36"D84310EC-9221-4D44-8195-9064A583F174-
+
+CProcessInfoPlistFile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Info.plist MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist
+s379320696.144799
+e379320696.149803
+r1
+xProcessInfoPlistFile
+x/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Info.plist
+xMacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Process MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist85262578f99bb641^295a2978f99bb641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist0000000000000000^503"ProcessInfoPlistFile build/Debug/MacOpenGLRenderDemo.app/Contents/Info.plist MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    builtin-infoPlistUtility MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist -genpkginfo /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app/Contents/Info.plist36"C2AE748E-2C79-4629-A4B4-CB586524F93C-
+
+CProcessPCH /Users/cyh/Library/Developer/Xcode/DerivedData/MacOpenGLRenderDemo-fsfogxwjprdlomauzfrslehhevym/Index/PrecompiledHeaders/MacOpenGLRenderDemo-Prefix-ewcobfwxeufdcpbdkhhscmjonpyw_ast/MacOpenGLRenderDemo-Prefix.pch.pth MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch.pth MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379320696.165629
+e379320700.019294
+r1
+xProcessPCH
+x/var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch.pth
+xMacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-ObjC'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch488c2a78f99bb641^67ef047cf99bb641^-60"clang: warning: argument unused during compilation: '-ObjC'-0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch0000000000000000^3242"ProcessPCH /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch.pth MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-generated-files.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-own-target-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-project-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/include -IFFMpeg_Angel/include -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources/x86_64 -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug/MacOpenGLRenderDemo.build/DerivedSources -F/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug -ObjC --serialize-diagnostics /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch.dia -c /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch -o /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-gnuckcpqmzyvwlhapoibxbtzzxwv/MacOpenGLRenderDemo-Prefix.pch.d36"0BE073B1-396E-4046-A771-F05F3DE55D65-
+
+CTouch /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app
+s379320707.342374
+e379320707.556787
+r1
+xTouch
+x/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app3db85783f99bb641^53958e83f99bb641^---0#0#0#--191"Touch build/Debug/MacOpenGLRenderDemo.app    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    /usr/bin/touch -c /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug/MacOpenGLRenderDemo.app36"6371CB86-5DF3-43C5-8FC6-FA0FDEA55270-
+

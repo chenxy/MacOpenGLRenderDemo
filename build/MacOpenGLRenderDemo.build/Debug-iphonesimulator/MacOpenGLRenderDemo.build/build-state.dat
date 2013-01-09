@@ -1,0 +1,383 @@
+TMacOpenGLRenderDemo
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/Info.plist MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist
+cProcessPCH /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-cqmdnuimddvbgffroswrhymkvffz/MacOpenGLRenderDemo-Prefix.pch.pth MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000509758AC0000000000000110
+t1352095916
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000506E340700000000001D57A0
+t1349399559
+s1922976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/lib/libbz2.1.0.5.dylib
+c00000000506E341E0000000000010190
+t1349399582
+s65936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/lib/libz.1.1.3.dylib
+c00000000506E341F0000000000013500
+t1349399583
+s79104
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libavcodec.a
+c0000000050EB7B620000000002457500
+t1357609826
+s38106368
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libavdevice.a
+c0000000050EB7B440000000000010820
+t1357609796
+s67616
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libavfilter.a
+c0000000050EB7B4500000000003112D0
+t1357609797
+s3216080
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libavformat.a
+c0000000050EB7B4C0000000001024D30
+t1357609804
+s16928048
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libavutil.a
+c0000000050EB7B630000000000080478
+t1357609827
+s525432
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libpostproc.a
+c0000000050EB7B630000000000031268
+t1357609827
+s201320
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libswresample.a
+c0000000050EB7B6300000000000324A0
+t1357609827
+s205984
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/libswscale.a
+c0000000050EB7B6300000000000FAD88
+t1357609827
+s1027464
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavcodec.pc
+c0000000050EB7B640000000000000182
+t1357609828
+s386
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavdevice.pc
+c0000000050EB7B6300000000000001A7
+t1357609827
+s423
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavfilter.pc
+c0000000050EB7B640000000000000206
+t1357609828
+s518
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavformat.pc
+c0000000050EB7B640000000000000190
+t1357609828
+s400
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libavutil.pc
+c0000000050EB7B650000000000000110
+t1357609829
+s272
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libpostproc.pc
+c0000000050EB7B64000000000000012C
+t1357609828
+s300
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libswresample.pc
+c0000000050EB7B640000000000000135
+t1357609828
+s309
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/FFMpeg_Angel/lib/pkgconfig/libswscale.pc
+c0000000050EB7B65000000000000012D
+t1357609829
+s301
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/KNFrameReader/KNFFMpegFrameReder.m
+c0000000050EB7D1C0000000000000BD9
+t1357610268
+s3033
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNAppDelegate.m
+c0000000050EA6209000000000000017A
+t1357537801
+s378
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNGLView.m
+c0000000050EA72BC00000000000002B1
+t1357542076
+s689
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNViewController.m
+c0000000050EB7D140000000000000151
+t1357610260
+s337
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch
+c0000000050EA620900000000000000A9
+t1357537801
+s169
+i<Cocoa/Cocoa.h>
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/Credits.rtf
+c0000000050EA620900000000000001B4
+t1357537801
+s436
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/InfoPlist.strings
+c0000000050EA6209000000000000002D
+t1357537801
+s45
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib
+c0000000050EA655E0000000000023CA5
+t1357538654
+s146597
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/main.m
+c0000000050EA620900000000000000FD
+t1357537801
+s253
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app.dSYM
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/Info.plist
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/MacOpenGLRenderDemo
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/PkgInfo
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/en.lproj/Credits.rtf
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libavcodec.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libavdevice.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libavfilter.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libavformat.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libavutil.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libpostproc.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libswresample.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libswscale.pc
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/yumi.jpeg
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/Objects-normal/i386/KNAppDelegate.o
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/Objects-normal/i386/KNFFMpegFrameReder.o
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/Objects-normal/i386/KNGLView.o
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/Objects-normal/i386/KNViewController.o
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/Objects-normal/i386/MacOpenGLRenderDemo.LinkFileList
+c0000000050EB7D830000000000000310
+t1357610371
+s784
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/yumi.jpeg
+c0000000050370AFB0000000000012C3F
+t1345784571
+s76863
+
+N/var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-cqmdnuimddvbgffroswrhymkvffz/MacOpenGLRenderDemo-Prefix.pch.pth
+t2
+s0
+
+NMacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist
+c0000000050EA6209000000000000044B
+t1357537801
+s1099
+
+CBuild AST from /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/KNFrameReader/KNFFMpegFrameReder.m
+r0
+
+CBuild AST from /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNAppDelegate.m
+r0
+
+CBuild AST from /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNGLView.m
+r0
+
+CBuild AST from /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNViewController.m
+r0
+
+CBuild AST from /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf6d4ae02b59bb641^9e248903b59bb641^---0#1#0#--18"Check dependencies36"F89A450C-27DF-4059-A9A5-ABF72BC67ED6-
+
+CCompileC build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/Objects-normal/i386/KNAppDelegate.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/Objects-normal/i386/KNFFMpegFrameReder.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/KNFrameReader/KNFFMpegFrameReder.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/Objects-normal/i386/KNGLView.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNGLView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/Objects-normal/i386/KNViewController.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/KNViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/Objects-normal/i386/main.o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileXIB /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/en.lproj/MainMenu.xib
+r0
+
+CCopyStringsFile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/en.lproj/InfoPlist.strings MacOpenGLRenderDemo/en.lproj/InfoPlist.strings
+r0
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libavcodec.pc build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libavcodec.pc
+r0
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libavdevice.pc build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libavdevice.pc
+r0
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libavfilter.pc build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libavfilter.pc
+r0
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libavformat.pc build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libavformat.pc
+r0
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libavutil.pc build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libavutil.pc
+r0
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libpostproc.pc build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libpostproc.pc
+r0
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libswresample.pc build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libswresample.pc
+r0
+
+CCpResource FFMpeg_Angel/lib/pkgconfig/libswscale.pc build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/libswscale.pc
+r0
+
+CCpResource MacOpenGLRenderDemo/en.lproj/Credits.rtf build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/en.lproj/Credits.rtf
+r0
+
+CCpResource yumi.jpeg build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/yumi.jpeg
+r0
+
+CGenerateDSYMFile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app.dSYM /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/MacOpenGLRenderDemo
+r0
+
+CLd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/MacOpenGLRenderDemo normal i386
+r0
+
+CProcessInfoPlistFile /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/Info.plist MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist
+s379303171.541139
+e379303171.561080
+r1
+xProcessInfoPlistFile
+x/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/Info.plist
+xMacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Process MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plistf19f8a03b59bb641^eeb28f03b59bb641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist0000000000000000^743"ProcessInfoPlistFile build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/Info.plist MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MacOpenGLRenderDemo/MacOpenGLRenderDemo-Info.plist -genpkginfo /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app/Info.plist36"1C3E73A4-97E3-49A6-8A9F-200FEC3897BC-
+
+CProcessPCH /Users/cyh/Library/Developer/Xcode/DerivedData/MacOpenGLRenderDemo-fsfogxwjprdlomauzfrslehhevym/Index/PrecompiledHeaders/MacOpenGLRenderDemo-Prefix-bblkbmjnkontjaawsdptaojwfxuw_ast/MacOpenGLRenderDemo-Prefix.pch.pth MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-cqmdnuimddvbgffroswrhymkvffz/MacOpenGLRenderDemo-Prefix.pch.pth MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379303171.569292
+e379303171.654890
+r0
+xProcessPCH
+x/var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-cqmdnuimddvbgffroswrhymkvffz/MacOpenGLRenderDemo-Prefix.pch.pth
+xMacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch:6:13: fatal error: 'Cocoa/Cocoa.h' file not found
+o    #import <Cocoa/Cocoa.h>
+o            ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pchdae39103b59bb641^a3aca703b59bb641^-204"/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch:6:13: fatal error: 'Cocoa/Cocoa.h' file not found    #import <Cocoa/Cocoa.h>            ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@30"'Cocoa/Cocoa.h' file not found-379303171#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@108"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch0000000000000000^5#12#5#12#146#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@108"file://localhost/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch0000000000000000^3633"ProcessPCH /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-cqmdnuimddvbgffroswrhymkvffz/MacOpenGLRenderDemo-Prefix.pch.pth MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-generated-files.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-own-target-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/MacOpenGLRenderDemo-project-headers.hmap -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/include -IFFMpeg_Angel/include -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/DerivedSources/i386 -I/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/MacOpenGLRenderDemo.build/Debug-iphonesimulator/MacOpenGLRenderDemo.build/DerivedSources -F/Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-cqmdnuimddvbgffroswrhymkvffz/MacOpenGLRenderDemo-Prefix.pch.dia -c /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/MacOpenGLRenderDemo/MacOpenGLRenderDemo-Prefix.pch -o /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-cqmdnuimddvbgffroswrhymkvffz/MacOpenGLRenderDemo-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MacOpenGLRenderDemo-Prefix-cqmdnuimddvbgffroswrhymkvffz/MacOpenGLRenderDemo-Prefix.pch.d36"1F9EA0B4-9542-4780-8EE5-21A5D66E4877-
+
+CTouch /Volumes/MAC2/PROJECT/MacOpenGLRenderDemo/build/Debug-iphonesimulator/MacOpenGLRenderDemo.app
+r0
+
