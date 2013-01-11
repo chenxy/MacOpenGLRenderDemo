@@ -13,7 +13,11 @@
 #import <Cocoa/Cocoa.h>
 
 @interface KNGLView : NSOpenGLView
+
 @property (assign) BOOL aspectFit;
 - (void)renderData:(NSDictionary *)frameData;
+
+- (void)renderVDA:(CVImageBufferRef)buffer;
+
 - (void)clear:(float)r g:(float)g b:(float)r a:(float)a;
 @end

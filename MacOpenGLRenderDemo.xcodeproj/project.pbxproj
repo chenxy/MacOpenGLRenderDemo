@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D54466D16A007110076D0A3 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D54466C16A007110076D0A3 /* IOSurface.framework */; };
 		1D5CF203169A99890076D7EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5CF202169A99890076D7EA /* Cocoa.framework */; };
 		1D5CF20D169A99890076D7EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D5CF20B169A99890076D7EA /* InfoPlist.strings */; };
 		1D5CF20F169A99890076D7EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5CF20E169A99890076D7EA /* main.m */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D54466C16A007110076D0A3 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
 		1D5CF1FE169A99890076D7EA /* MacOpenGLRenderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOpenGLRenderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5CF202169A99890076D7EA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1D5CF205169A99890076D7EA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -171,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D54466D16A007110076D0A3 /* IOSurface.framework in Frameworks */,
 				1D5CF832169BDB490076D7EA /* libz.1.1.3.dylib in Frameworks */,
 				1D5CF830169BDB410076D7EA /* libbz2.1.0.5.dylib in Frameworks */,
 				1D5CF284169AA1E40076D7EA /* GLUT.framework in Frameworks */,
@@ -215,6 +218,7 @@
 		1D5CF201169A99890076D7EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D54466C16A007110076D0A3 /* IOSurface.framework */,
 				1D5CF831169BDB490076D7EA /* libz.1.1.3.dylib */,
 				1D5CF82F169BDB410076D7EA /* libbz2.1.0.5.dylib */,
 				1D5CF285169AA1F70076D7EA /* GLKit.framework */,

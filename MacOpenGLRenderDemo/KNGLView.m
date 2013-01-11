@@ -44,15 +44,22 @@ const GLcharARB* shaderText=
 
 @interface KNGLView() {
 
-    GLint backingWidth_;
-    GLint backingHeight_;
+    GLint           backingWidth_;
+    GLint           backingHeight_;
     
-    GLhandleARB FSHandle_;
-    GLhandleARB PHandle_;
+    GLhandleARB     FSHandle_;
+    GLhandleARB     PHandle_;
+    
+    GLuint			surfaceTexture_;
+	IOSurfaceRef	surface_;
+
 }
 - (void)initOpenGLShader;
+- (void)initVDARender;
+- (void)render:(BOOL)vda;
 - (void)updateViewPort;
 - (void)makeTexture:(NSDictionary *)frameData;
+- (void)makeSufaceToTexture:(IOSurfaceRef)suface;
 @end
 
 @implementation KNGLView
@@ -66,6 +73,12 @@ const GLcharARB* shaderText=
     glDeleteObjectARB(PHandle_);
     
     [self clearGLContext];
+    
+    if (surfaceTexture_)
+        glDeleteTextures(1, &surfaceTexture_);
+    
+    if (surface_)
+        CFRelease(surface_);
     
     [super dealloc];
 }
@@ -89,8 +102,10 @@ const GLcharARB* shaderText=
 }
 
 - (void)prepareOpenGL {
+    
     [super prepareOpenGL];
     [self initOpenGLShader];
+    [self initVDARender];
 }
 
 ///뷰사라졌을대 처리. (윈도우 깨졌을때)
@@ -138,6 +153,18 @@ const GLcharARB* shaderText=
     });
 }
 
+- (void)initVDARender {
+    
+    long			swapInterval	= 1;
+    
+    [[self openGLContext] setValues:(GLint*)(&swapInterval)
+                       forParameter: NSOpenGLCPSwapInterval];
+    
+    glEnable(GL_TEXTURE_RECTANGLE_ARB);
+    glGenTextures(1, &surfaceTexture_);
+    glDisable(GL_TEXTURE_RECTANGLE_ARB);
+}
+
 - (void)updateViewPort {
     [self lockFocusIfCanDraw];
     
@@ -152,6 +179,10 @@ const GLcharARB* shaderText=
     [self unlockFocus];
 }
 
+- (void)render:(BOOL)vda {    
+}
+
+
 - (void)makeTexture:(NSDictionary *)frameData {
     
     GLint width     = (GLint)[[frameData objectForKey:@"width"] integerValue];
@@ -161,7 +192,7 @@ const GLcharARB* shaderText=
     NSData* chromaB     = [frameData objectForKey:@"chromaB"];
     NSData* chromaR     = [frameData objectForKey:@"chromaR"];
 
-    glEnable(GL_TEXTURE_2D);
+    glEnable(GL_TEXTURE_RECTANGLE_ARB);
     const GLint kTextureTarget = GL_TEXTURE_RECTANGLE_ARB;
     
     // *셰이더 프로그램으로 이미지의 높이를 전송.
@@ -186,6 +217,36 @@ const GLcharARB* shaderText=
         glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_DECAL);
         glTexImage2D(kTextureTarget, 0, GL_LUMINANCE, widths[i], heights[i], 0, GL_LUMINANCE, GL_UNSIGNED_BYTE, pixels[i]);
     }
+}
+
+- (void)makeSufaceToTexture:(IOSurfaceRef)suface {
+    
+    if (surface_ && (surface_ != suface)) {
+		CFRelease(surface_);
+	}
+
+    if ((surface_ = suface) != nil) {
+		CGLContextObj   cgl_ctx = [[self openGLContext]  CGLContextObj];
+		
+		GLsizei w	= (GLsizei)IOSurfaceGetWidth(surface_);
+		GLsizei h	= (GLsizei)IOSurfaceGetHeight(surface_);
+		
+		glEnable(GL_TEXTURE_RECTANGLE_ARB);
+		glBindTexture(GL_TEXTURE_RECTANGLE_ARB, surfaceTexture_);
+		CGLTexImageIOSurface2D(cgl_ctx,
+                               GL_TEXTURE_RECTANGLE_ARB, GL_RGB8,
+							   w,
+                               h,
+							   GL_YCBCR_422_APPLE,
+                               GL_UNSIGNED_SHORT_8_8_APPLE,
+                               surface_,
+                               0);
+        
+		glBindTexture(GL_TEXTURE_RECTANGLE_ARB, 0);
+		glDisable(GL_TEXTURE_RECTANGLE_ARB);
+        
+        glFlush();
+	}
 }
 
 #pragma mark - Public
@@ -249,6 +310,11 @@ const GLcharARB* shaderText=
     [self unlockFocus];
 }
 
+- (void)renderVDA:(CVImageBufferRef)buffer {
+    
+}
+
+
 - (void)clear:(float)r g:(float)g b:(float)b a:(float)a {
         
     [self lockFocusIfCanDraw];
@@ -260,4 +326,5 @@ const GLcharARB* shaderText=
     
     [self unlockFocus];
 }
+
 @end
