@@ -24,6 +24,7 @@
 		1D5CF830169BDB410076D7EA /* libbz2.1.0.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5CF82F169BDB410076D7EA /* libbz2.1.0.5.dylib */; };
 		1D5CF832169BDB490076D7EA /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5CF831169BDB490076D7EA /* libz.1.1.3.dylib */; };
 		1D5CF833169BDD020076D7EA /* mov.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1D5CF28B169AA39C0076D7EA /* mov.mp4 */; };
+		1D831E4116A40B29006A4510 /* KNYUVShaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D831E3F16A40AF1006A4510 /* KNYUVShaderView.m */; };
 		1DDA597B169C18A300DA3361 /* KNFFmpegFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA597A169C175E00DA3361 /* KNFFmpegFileReader.m */; };
 		1DDA597C169C18A300DA3361 /* KNFFmpegDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA5977169C16DB00DA3361 /* KNFFmpegDecoder.m */; };
 		1DF17488169D5AA5001FB46D /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF17477169D5AA5001FB46D /* libavcodec.a */; };
@@ -73,6 +74,8 @@
 		1D5CF28B169AA39C0076D7EA /* mov.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mov.mp4; sourceTree = "<group>"; };
 		1D5CF82F169BDB410076D7EA /* libbz2.1.0.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.1.0.5.dylib; path = usr/lib/libbz2.1.0.5.dylib; sourceTree = SDKROOT; };
 		1D5CF831169BDB490076D7EA /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		1D831E3E16A40AF1006A4510 /* KNYUVShaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNYUVShaderView.h; sourceTree = "<group>"; };
+		1D831E3F16A40AF1006A4510 /* KNYUVShaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNYUVShaderView.m; sourceTree = "<group>"; };
 		1DDA5976169C16DB00DA3361 /* KNFFmpegDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNFFmpegDecoder.h; sourceTree = "<group>"; };
 		1DDA5977169C16DB00DA3361 /* KNFFmpegDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNFFmpegDecoder.m; sourceTree = "<group>"; };
 		1DDA5979169C175E00DA3361 /* KNFFmpegFileReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNFFmpegFileReader.h; sourceTree = "<group>"; };
@@ -244,6 +247,8 @@
 		1D5CF208169A99890076D7EA /* MacOpenGLRenderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1D831E3E16A40AF1006A4510 /* KNYUVShaderView.h */,
+				1D831E3F16A40AF1006A4510 /* KNYUVShaderView.m */,
 				1D5CF214169A99890076D7EA /* KNAppDelegate.h */,
 				1D5CF215169A99890076D7EA /* KNAppDelegate.m */,
 				1D5CF271169A9B730076D7EA /* KNViewController.h */,
@@ -540,6 +545,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D831E4116A40B29006A4510 /* KNYUVShaderView.m in Sources */,
 				1DDA597B169C18A300DA3361 /* KNFFmpegFileReader.m in Sources */,
 				1DDA597C169C18A300DA3361 /* KNFFmpegDecoder.m in Sources */,
 				1D5CF20F169A99890076D7EA /* main.m in Sources */,

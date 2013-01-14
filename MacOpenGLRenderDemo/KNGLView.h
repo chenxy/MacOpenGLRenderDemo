@@ -1,23 +1,18 @@
 //
 //  KNGLView.h
-//  MacOpenGLRenderDemo
+//  MacVDA
 //
-//  Created by cyh on 13. 1. 7..
+//  Created by cyh on 13. 1. 14..
 //  Copyright (c) 2013년 cyh3813. All rights reserved.
 //
 
-/**
-    IB에서 NSOpenglView의 DoubleBuffer Option On.
-    Renderer에서 Accelated Renderer 선택.
- */
 #import <Cocoa/Cocoa.h>
 
 @interface KNGLView : NSOpenGLView
 
+@property (assign, readonly) int backingWidth;
+@property (assign, readonly) int backingHeight;
+@property (assign) BOOL clearBackground;
 @property (assign) BOOL aspectFit;
-- (void)renderData:(NSDictionary *)frameData;
-
-- (void)renderVDA:(CVImageBufferRef)buffer;
-
-- (void)clear:(float)r g:(float)g b:(float)r a:(float)a;
+- (void)clear:(float)r g:(float)g b:(float)b a:(float)a;
 @end

@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KNGLView.h"
+#import "KNYUVShaderView.h"
 
 @interface KNViewController : NSObject
 @property (retain, nonatomic) IBOutlet NSButton* renderButton;
-@property (retain, nonatomic) IBOutlet KNGLView* glView;
-@property (retain, nonatomic) IBOutlet KNGLView* glView2;
+@property (retain, nonatomic) IBOutlet KNYUVShaderView* glView;
+@property (retain, nonatomic) IBOutlet KNYUVShaderView* glView2;
 - (IBAction)readFrames:(id)sender;
 - (IBAction)clear:(id)sender;
 - (IBAction)fillImage:(id)sender;

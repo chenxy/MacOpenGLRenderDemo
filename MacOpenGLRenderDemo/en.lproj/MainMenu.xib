@@ -1404,7 +1404,6 @@
 							<string key="NSFrame">{{348, 19}, {68, 19}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="332841850">
@@ -3651,7 +3650,7 @@
 				<string key="517.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="534.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="544.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="545.CustomClassName">KNGLView</string>
+				<string key="545.CustomClassName">KNYUVShaderView</string>
 				<boolean value="NO" key="545.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="545.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="NO" key="559.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
@@ -3756,18 +3755,18 @@
 						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="glView">KNGLView</string>
-						<string key="glView2">KNGLView</string>
+						<string key="glView">KNYUVShaderView</string>
+						<string key="glView2">KNYUVShaderView</string>
 						<string key="renderButton">NSButton</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<object class="IBToOneOutletInfo" key="glView">
 							<string key="name">glView</string>
-							<string key="candidateClassName">KNGLView</string>
+							<string key="candidateClassName">KNYUVShaderView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="glView2">
 							<string key="name">glView2</string>
-							<string key="candidateClassName">KNGLView</string>
+							<string key="candidateClassName">KNYUVShaderView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="renderButton">
 							<string key="name">renderButton</string>
@@ -3777,6 +3776,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/KNViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">KNYUVShaderView</string>
+					<string key="superclassName">KNGLView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/KNYUVShaderView.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">

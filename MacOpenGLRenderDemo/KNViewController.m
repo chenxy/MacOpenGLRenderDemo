@@ -45,8 +45,7 @@
             [dec decodeFrame:packet completion:^(NSDictionary *frameData) {
                 
                 [frameData retain];
-                [_glView renderData:frameData];
-//                [_glView2 renderData:frameData];
+                [_glView render:frameData];
                 [frameData release];
             }];
         }];
